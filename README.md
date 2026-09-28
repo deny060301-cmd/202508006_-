@@ -36,7 +36,7 @@ vi index.html
 '''
 아래 내용 삽입
 
-'''
+/*
 <!DOCTYPE html>
 <html>
 <head>
@@ -60,7 +60,7 @@ vi index.html
  <p><a href="/time">현재 시간 확인</a></p>
 </body>
 </html>
-'''
+*/
 
 :wq
 
