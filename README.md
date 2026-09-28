@@ -1,11 +1,15 @@
+'''
 cd projects
 cd 202508006
 cd weeks
+'''
 
+'''
 vi add.js
+'''
 아래 내용을 삽입
 
----
+'''
 const express = require("express");
 const path = require("path");
 const app = express();
@@ -18,17 +22,21 @@ app.get("/time", (req, res) => {
 app.listen(PORT, () => {
  console.log(`서버 실행 중: http://localhost:${PORT}`);
 });
----
+'''
 
 :wq
 
+'''
 mkdir public
+'''
 생성
 
+'''
 vi index.html
+'''
 아래 내용 삽입
 
----
+'''
 <!DOCTYPE html>
 <html>
 <head>
@@ -52,15 +60,17 @@ vi index.html
  <p><a href="/time">현재 시간 확인</a></p>
 </body>
 </html>
----
+'''
 
 :wq
 
 그 후
+'''
 vi style.css
+'''
 아래 내용 삽입
 
----
+'''
 body {
  width: 700px;
  margin: 50px auto;
@@ -75,19 +85,23 @@ h2, h3 {
 p {
  font-size: 16px;
 }
----
+'''
 
 :wq
 
 뒤로 가기
+'''
 cd ..
+'''
 
+'''
 node app.js
+'''
 실행
 
 크롬에
-
+'''
 http://localhost:3000
-
+'''
 입력 시 결과 출력
 
