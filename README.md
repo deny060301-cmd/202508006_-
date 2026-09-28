@@ -9,7 +9,7 @@ vi add.js
 '''
 아래 내용을 삽입
 
-'''
+/*
 const express = require("express");
 const path = require("path");
 const app = express();
@@ -22,7 +22,7 @@ app.get("/time", (req, res) => {
 app.listen(PORT, () => {
  console.log(`서버 실행 중: http://localhost:${PORT}`);
 });
-'''
+*/
 
 :wq
 
